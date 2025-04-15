@@ -81,6 +81,6 @@ Ouvre [http://localhost:3000](http://localhost:3000) pour voir Dagster.
 
 ---
 
-## 🐳 Dockerisation (en option)
+## 🐳 Dockerisation 
 
-Ajoute un `Dockerfile` et un `docker-compose.yml` pour tout conteneuriser si nécessaire.
+Ajoute un `Dockerfile` et un `docker-compose.yml` pour tout conteneuriser.

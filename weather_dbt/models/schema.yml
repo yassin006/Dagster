@@ -1,0 +1,53 @@
+version: 2
+
+models:
+  - name: my_first_dbt_model
+    description: "Modèle de démonstration - première table"
+    columns:
+      - name: id
+        description: "Clé primaire de la table"
+        tests:
+          - unique
+          # - not_null  # Commenté si la colonne contient potentiellement des NULL
+
+  - name: my_second_dbt_model
+    description: "Deuxième modèle de démonstration"
+    columns:
+      - name: id
+        description: "Clé primaire"
+        tests:
+          - unique
+          - not_null
+
+  - name: weather_model
+    description: "Vue sur les données météo brutes"
+    columns:
+      - name: day
+        description: "Date des prévisions"
+        tests:
+          - not_null
+      - name: tmin
+        description: "Température minimale"
+        tests:
+          - not_null
+      - name: tmax
+        description: "Température maximale"
+        tests:
+          - not_null
+
+  - name: avg_temperature
+    description: "Vue de la température moyenne par jour"
+    columns:
+      - name: day
+        description: "Date unique"
+        tests:
+          - not_null
+          - unique
+      - name: avg_tmin
+        description: "Température minimale moyenne"
+        tests:
+          - not_null
+      - name: avg_tmax
+        description: "Température maximale moyenne"
+        tests:
+          - not_null

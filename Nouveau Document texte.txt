@@ -1,0 +1,14 @@
+🛠️ Tu veux que je t’aide sur quoi maintenant ?
+Voici quelques suggestions selon ce que tu veux prioriser :
+
+💻 Créer un bouton “Actualiser les données” dans Streamlit
+
+🔁 Ajouter les assets/schedules dans Dagster
+
+🧪 Mettre en place un test pytest
+
+🐳 Commencer la Dockerisation (avec Dockerfile simple)
+
+🌐 Préparer un déploiement Streamlit Cloud
+
+Dis-moi ce que tu veux faire en premier, et je m’en occupe !
